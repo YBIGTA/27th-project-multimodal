@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/YBIGTA/27th-project-multimodal.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "backend_demo"]
+	remote = origin
+	merge = refs/heads/backend_demo
+[branch "frontend_demo"]
+	vscode-merge-base = origin/backend_demo
+	remote = origin
+	merge = refs/heads/frontend_demo

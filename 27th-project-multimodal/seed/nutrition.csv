@@ -1,0 +1,5 @@
+slug,portion_g,kcal,carb_g,protein_g,fat_g,sugars_g,sodium_mg,saturated_fat_g,trans_fat_g,fiber_g,source,source_version
+bulgogi_deopbap,300,620,85,23,15,10,900,4,0.2,3,MFDS,2025-06-01
+bibimbap,300,560,82,20,12,7,850,3.5,0.1,4,MFDS,2025-06-01
+jeyuk_bokkeum,250,680,45,28,32,9,980,7,0.3,3,MFDS,2025-06-01
+jjajangmyeon,500,750,110,18,22,12,1500,6,0.3,5,MFDS,2025-06-01
