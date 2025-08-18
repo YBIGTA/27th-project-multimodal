@@ -1,0 +1,24 @@
+# 프로젝트 루트에서
+# (Expo가 버전에 맞는 호환 패키지를 자동으로 설치합니다)
+
+# 상태 저장
+npx expo install @react-native-async-storage/async-storage
+
+# 이미지(앨범/카메라)
+npx expo install expo-image-picker
+
+# 그라디언트 헤더
+npx expo install expo-linear-gradient
+
+# 다이얼로그 슬라이더
+npx expo install @react-native-community/slider
+
+# 진행 링(SVG)
+npx expo install react-native-svg
+
+# 머티리얼 컴포넌트
+npm i react-native-paper
+# (Expo SDK 53 기준 정상 동작)
+
+# 캘린더(기록 탭)
+npm i react-native-calendars
