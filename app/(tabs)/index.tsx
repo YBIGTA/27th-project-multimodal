@@ -234,7 +234,7 @@ export default function Home() {
                 {item.name}
               </Text>
               <Text style={{ color: "#4B5563", marginTop: 4 }}>
-                {item.category} • {item.kcal ? `${item.kcal} kcal` : "영양정보 없음"}
+                {item.category} • {item.kcal ? `${Math.round(item.kcal)} kcal` : "영양정보 없음"}
               </Text>
               {item.macro && ( // Only display macro if available
                 <Text style={{ color: "#6B7280", marginTop: 2, fontSize: 12 }}>
