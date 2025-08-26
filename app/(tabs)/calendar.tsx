@@ -92,7 +92,7 @@ export default function CalendarTab() {
         {/* 선택 날짜 요약 */}
         <Card style={{ borderRadius: radius.lg, flex: 1, marginBottom: space(2), backgroundColor: palette.card, elevation: 0 }}>
           <Card.Content style={{ flex: 1, flexDirection: 'column', justifyContent: 'flex-start' }}>
-            <Text>합계: <Text style={{ fontWeight: "700" }}>{totalKcal} kcal</Text></Text>
+            <Text>합계: <Text style={{ fontWeight: "700" }}>{Math.round(totalKcal)} kcal</Text></Text>
             <Divider />
             {items.length === 0 ? (
               <Text style={{ color: "#6B7280", marginTop: 6 }}>이 날의 기록이 없어요.</Text>
@@ -113,7 +113,7 @@ export default function CalendarTab() {
                           </Text>
                         ) : null}
                       </View>
-                      <Text style={{ fontWeight: "700" }}>{item.kcal ?? 0} kcal</Text>
+                      <Text style={{ fontWeight: "700" }}>{Math.round(item.kcal ?? 0)} kcal</Text>
                     </Card.Content>
                   </Card>
                 )}
