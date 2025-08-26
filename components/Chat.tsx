@@ -269,7 +269,7 @@ export default function Chat({ mealName, apiBase, onSend, initialFoodRecognition
     <LinearGradient
       colors={
         theme === "dark" ? ["#0f1115", "#0b0e13"] :
-          theme === "glass" ? ["#f8fbff", "#f9f3ff"] :
+          theme === "glass" ? ["#f8fbff", "#ebffc2ff"] :
             ["#ffffff", "#f6f7fb"]
       }
       style={{ flex: 1, borderTopLeftRadius: 20, borderTopRightRadius: 20, overflow: "hidden" }}
@@ -403,11 +403,11 @@ const styles = StyleSheet.create({
     paddingVertical: 6,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: "#e2e2f5",
+    borderColor: "#f2ffd7ff",
   },
-  themeBtnActive: { backgroundColor: "#ece8ff", borderColor: "#c8bfff" },
+  themeBtnActive: { backgroundColor: "#d6ff83ff", borderColor: "#3c5949" },
   themeBtnText: { fontSize: 11, color: "#6b6f7c" },
-  themeBtnTextActive: { color: "#5a3df5", fontWeight: "700" },
+  themeBtnTextActive: { color: "#3c5949", fontWeight: "700" },
 
   chatWrap: { flex: 1, paddingTop: 4 },
   row: { flexDirection: "row", alignItems: "flex-end", gap: 8 },
@@ -427,7 +427,7 @@ const styles = StyleSheet.create({
 
   bubble: { maxWidth: "78%", paddingHorizontal: 12, paddingVertical: 10, borderRadius: 14 },
   assistBubble: { backgroundColor: "#ffffff", borderWidth: 1, borderColor: "#ececec" },
-  userBubble: { backgroundColor: "#5a3df5" },
+  userBubble: { backgroundColor: "#92bc3d" },
   bubbleText: { fontSize: 15, lineHeight: 20 },
   assistText: { color: "#23262b" },
   userText: { color: "white" },
@@ -451,7 +451,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 8,
     borderRadius: 18,
-    shadowColor: "#8a74ff",
+    shadowColor: "#3c5949",
     shadowOpacity: 0.08,
     shadowRadius: 6,
     shadowOffset: { width: 0, height: 3 },
@@ -472,7 +472,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   input: { flex: 1, minHeight: 38, maxHeight: 120, fontSize: 15, color: "#222", paddingRight: 8 },
-  sendBtn: { height: 38, minWidth: 38, alignItems: "center", justifyContent: "center", borderRadius: 12, backgroundColor: "#5a3df5" },
+  sendBtn: { height: 38, minWidth: 38, alignItems: "center", justifyContent: "center", borderRadius: 12, backgroundColor: "#92bc3d" },
   sendBtnPressed: { transform: [{ scale: 0.98 }] },
   sendText: { color: "white", fontSize: 16, fontWeight: "800" },
   hint: { fontSize: 11, color: "#8a8fa3", paddingHorizontal: 16 },
