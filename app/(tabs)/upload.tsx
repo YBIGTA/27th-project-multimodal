@@ -192,7 +192,7 @@ export default function Upload() {
                 <Divider style={{ marginVertical: 10 }} />
 
                 {selectedNutrition && (
-                  <Card style={{ borderRadius: radius.md }}>
+                  <Card style={{ borderRadius: radius.md, backgroundColor: "#f4ffdfff" }}>
                     <Card.Title title={selectedNutrition.name} />
                     <Card.Content style={{ gap: 6 }}>
                       <Text>칼로리: {selectedNutrition.kcal} kcal</Text>
