@@ -59,6 +59,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     width: "85%",   // 🔹 화면 폭의 85% 정도만 사용
     borderRadius: 12,
+    backgroundColor: "#eef6deff"
   },
   input: {
     marginTop: 12,

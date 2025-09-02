@@ -67,7 +67,7 @@ export default function MacroDialog({ open, initial, onClose, onSave }: Props) {
 
   return (
     <Portal>
-      <Dialog visible={open} onDismiss={onClose} style={{ borderRadius: 18 }}>
+      <Dialog visible={open} onDismiss={onClose} style={{ borderRadius: 18, backgroundColor: "#eef6deff" }}>
         <Dialog.Content>
           <Text style={{ fontSize: 20, fontWeight: "900", marginBottom: 8 }}>
             탄수화물 · 단백질 · 지방 비율 (합계 100%)

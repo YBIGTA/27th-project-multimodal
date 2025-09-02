@@ -26,7 +26,7 @@ export default function MultiSelectDialog({
 
   return (
     <Portal>
-      <Dialog visible={open} onDismiss={onClose} style={{ borderRadius: 22 }}>
+      <Dialog visible={open} onDismiss={onClose} style={{ borderRadius: 22, backgroundColor: "#eef6deff" }}>
         <Dialog.Content>
           <Text style={{ fontSize: 22, fontWeight: "900", marginBottom: 12 }}>
             {title}
@@ -45,10 +45,10 @@ export default function MultiSelectDialog({
                     borderRadius: 999,
                     borderWidth: 1,
                     borderColor: active ? "transparent" : "#E5E7EB",
-                    backgroundColor: active ? "#EFE7FF" : "#F5F6FA",
+                    backgroundColor: active ? "#92bc3d" : "#F5F6FA",
                   }}
                 >
-                  <Text style={{ color: active ? palette.primary : "#4B5563", fontWeight: "700" }}>
+                  <Text style={{ color: active ? "white" : "#4B5563", fontWeight: "700" }}>
                     {opt}
                   </Text>
                 </Pressable>
